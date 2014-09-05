@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/david/bin/node', '/home/david/bin/npm', 'start' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose node symlink /home/david/bin/node
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info prestart mwd-2014-todo-dkirwan@0.0.1
+7 info start mwd-2014-todo-dkirwan@0.0.1
+8 verbose unsafe-perm in lifecycle true
+9 info mwd-2014-todo-dkirwan@0.0.1 Failed to exec start script
+10 error mwd-2014-todo-dkirwan@0.0.1 start: `node ./bin/todo-server`
+10 error Exit status 8
+11 error Failed at the mwd-2014-todo-dkirwan@0.0.1 start script.
+11 error This is most likely a problem with the mwd-2014-todo-dkirwan package,
+11 error not with npm itself.
+11 error Tell the author that this fails on your system:
+11 error     node ./bin/todo-server
+11 error You can get their info via:
+11 error     npm owner ls mwd-2014-todo-dkirwan
+11 error There is likely additional logging output above.
+12 error System Linux 3.8.0-19-generic
+13 error command "/home/david/bin/node" "/home/david/bin/npm" "start"
+14 error cwd /home/david/files/git/collegework/msc/mobile-web-development/assignments/01/node
+15 error node -v v0.10.24
+16 error npm -v 1.3.21
+17 error code ELIFECYCLE
+18 verbose exit [ 1, true ]
